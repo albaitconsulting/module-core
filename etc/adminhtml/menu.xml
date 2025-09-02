@@ -3,10 +3,10 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <!-- Common top-level menu for all Alba modules -->
-        <add id="Alba::alba"
-             title="Alba"
-             module="Alba_Core"
+        <add id="Albaitconsulting::albaitconsulting"
+             title="Alba It Consulting"
+             module="Albaitconsulting_Core"
              sortOrder="10"
-             resource="Alba_Core::alba"/>
+             resource="Albaitconsulting_Core::albaitconsulting"/>
     </menu>
 </config>

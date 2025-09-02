@@ -1,9 +1,9 @@
 {
-    "name": "alba/module-core",
+    "name": "albaitconsulting/core",
     "description": "Core module for Alba Magento 2 extensions",
     "type": "magento2-module",
     "license": "OSL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Alba IT Consulting",
@@ -21,7 +21,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Alba\\Core\\": ""
+            "Albaitconsulting\\Core\\": ""
         }
     },
     "minimum-stability": "stable",
