@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Common top-level menu for all Alba modules -->
+        <add id="Alba::alba"
+             title="Alba"
+             module="Alba_Core"
+             sortOrder="10"
+             resource="Alba_Core::alba"/>
+    </menu>
+</config>

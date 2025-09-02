@@ -1,0 +1,29 @@
+{
+    "name": "alba/module-core",
+    "description": "Core module for Alba Magento 2 extensions",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alba IT Consulting",
+            "email": "contact@albaitconsulting.com",
+            "role": "Owner",
+            "homepage": "https://www.albaitconsulting.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1 || ^8.2 || ^8.3",
+        "magento/framework": "103.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Alba\\Core\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
